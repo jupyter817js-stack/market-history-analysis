@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "conditionId": "0xcond_heroic_series",
+      "slug": "counter-strike-aurora-vs-heroic-bo3",
+      "question": "Counter-Strike: Aurora Gaming vs Heroic (BO3)",
+      "category": "Esports",
+      "endDate": "2026-05-12T00:00:00Z",
+      "active": true,
+      "closed": false,
+      "negRisk": false,
+      "clobTokenIds": "[\"1234567890\"]",
+      "feesEnabled": false,
+      "events": [
+        {"id": "ev-1", "slug": "counter-strike-aurora-vs-heroic", "title": "Aurora vs Heroic"}
+      ]
+    },
+    {
+      "conditionId": "0xcond_heroic_map1",
+      "slug": "aurora-vs-heroic-map-1-winner",
+      "question": "Aurora Gaming vs Heroic - Map 1 Winner",
+      "category": "Esports",
+      "endDate": "2026-05-12T00:00:00Z",
+      "active": true,
+      "closed": false,
+      "negRisk": false,
+      "clobTokenIds": "[\"2345678901\"]",
+      "events": [
+        {"id": "ev-1", "slug": "counter-strike-aurora-vs-heroic", "title": "Aurora vs Heroic"}
+      ]
+    }
+  ],
+  "next_cursor": ""
+}

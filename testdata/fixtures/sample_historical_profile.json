@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-05-16T00:00:00Z",
+  "builder_version": "fixture-1.0",
+  "source_dataset_summary": "Synthetic fixture for validation package tests. Mirrors the shape of a real build-historical-profile output but contains only the 5 Layer-5 forensic clusters + minimal prefix/family/score distributions.",
+  "total_clusters": 25385,
+  "rn1_positive_envelope_clusters": 7077,
+  "rn1_touched_conditions": 64932,
+  "rn1_known_prefixes": [
+    "nba", "nfl", "mlb", "nhl",
+    "epl", "ucl", "lal", "sea", "bun", "cbb", "cfb",
+    "atp", "wta",
+    "cs2", "cs", "csgo", "lol", "val", "dota", "dota2",
+    "wnba", "fifa", "mls",
+    "elc", "lib", "uef", "uel", "tur", "spl", "itsb", "bra", "fl1",
+    "ere", "cdr", "efa", "cze1",
+    "acn", "col", "por", "efl", "fif", "mex", "bl2", "fr2",
+    "arg", "es2", "scop",
+    "brco", "egy1", "kor", "bol1", "j1100", "nwsl",
+    "j2100", "col1", "ukr1", "per1", "chi1", "aus", "el1", "el2"
+  ],
+  "rn1_family_distribution": {
+    "soccer_3way_moneyline": 0.42,
+    "spread_ml_total_stack": 0.18,
+    "bo3_esports_stack": 0.12,
+    "tennis_set_total_stack": 0.04,
+    "expanded_companion_stack": 0.24
+  },
+  "rn1_score_distribution": {
+    "5.0": 0.31,
+    "7.5": 0.14,
+    "9.5": 0.18,
+    "10.5": 0.27,
+    "12.5": 0.10
+  },
+  "rn1_bundle_size_p10": 3,
+  "rn1_bundle_size_p50": 5,
+  "rn1_bundle_size_p90": 12,
+  "rn1_layer5_prototypes": [
+    {
+      "event_slug": "atp-alcaraz-zverev-2026-01-30",
+      "sport_prefix": "atp",
+      "families": [],
+      "binary_count": 12,
+      "score": 7.5,
+      "buy_usdc": 330921,
+      "realized_pnl_usdc": 53451,
+      "horizon_hours": 24,
+      "liquidity_gate": "PASS",
+      "outcome_sign": "POSITIVE"
+    },
+    {
+      "event_slug": "nba-sas-min-2026-05-10",
+      "sport_prefix": "nba",
+      "families": ["spread_ml_total_stack"],
+      "binary_count": 42,
+      "score": 9.5,
+      "buy_usdc": 199947,
+      "realized_pnl_usdc": 9784,
+      "horizon_hours": 24,
+      "liquidity_gate": "PASS",
+      "outcome_sign": "POSITIVE"
+    },
+    {
+      "event_slug": "bun-bay-hei-2026-05-02",
+      "sport_prefix": "bun",
+      "families": ["soccer_3way_moneyline"],
+      "binary_count": 3,
+      "score": 5.0,
+      "buy_usdc": 138574,
+      "realized_pnl_usdc": 51861,
+      "horizon_hours": 24,
+      "liquidity_gate": "PASS",
+      "outcome_sign": "POSITIVE"
+    },
+    {
+      "event_slug": "sea-par-rom-2026-05-10",
+      "sport_prefix": "sea",
+      "families": ["soccer_3way_moneyline"],
+      "binary_count": 3,
+      "score": 5.0,
+      "buy_usdc": 91046,
+      "realized_pnl_usdc": -5426,
+      "horizon_hours": 24,
+      "liquidity_gate": "PASS",
+      "outcome_sign": "NEGATIVE"
+    },
+    {
+      "event_slug": "cs2-mglz-g2-2026-05-11",
+      "sport_prefix": "cs2",
+      "families": ["bo3_esports_stack"],
+      "binary_count": 12,
+      "score": 9.5,
+      "buy_usdc": 89267,
+      "realized_pnl_usdc": -79307,
+      "horizon_hours": 24,
+      "liquidity_gate": "PASS",
+      "outcome_sign": "IN_FLIGHT"
+    }
+  ]
+}

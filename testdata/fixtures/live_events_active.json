@@ -1,0 +1,141 @@
+[
+  {
+    "id": "ev-100",
+    "slug": "nfl-team-a-vs-team-b-2026-05-15",
+    "title": "NFL: Team A vs Team B",
+    "negRisk": true,
+    "markets": [
+      {
+        "conditionId": "0xcondA1",
+        "slug": "nfl-team-a-vs-team-b-moneyline-2026-05-15",
+        "question": "Will Team A win?",
+        "category": "Sports",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-15T20:00:00Z",
+        "clobTokenIds": "[\"tok-a1-yes\",\"tok-a1-no\"]"
+      },
+      {
+        "conditionId": "0xcondA2",
+        "slug": "nfl-team-a-vs-team-b-spread-2026-05-15",
+        "question": "Will Team A cover the spread?",
+        "category": "Sports",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-15T20:00:00Z",
+        "clobTokenIds": "[\"tok-a2-yes\",\"tok-a2-no\"]"
+      },
+      {
+        "conditionId": "0xcondA3",
+        "slug": "nfl-team-a-vs-team-b-total-2026-05-15",
+        "question": "Over 45.5 points?",
+        "category": "Sports",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-15T20:00:00Z",
+        "clobTokenIds": "[\"tok-a3-yes\",\"tok-a3-no\"]"
+      }
+    ]
+  },
+  {
+    "id": "ev-200",
+    "slug": "epl-team-x-vs-team-y-2026-05-13",
+    "title": "EPL: Team X vs Team Y",
+    "negRisk": true,
+    "markets": [
+      {
+        "conditionId": "0xcondB1",
+        "slug": "epl-team-x-vs-team-y-x-win",
+        "question": "Will X win?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-13T15:00:00Z",
+        "clobTokenIds": "[\"tok-b1-yes\",\"tok-b1-no\"]"
+      },
+      {
+        "conditionId": "0xcondB2",
+        "slug": "epl-team-x-vs-team-y-y-win",
+        "question": "Will Y win?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-13T15:00:00Z",
+        "clobTokenIds": "[\"tok-b2-yes\",\"tok-b2-no\"]"
+      },
+      {
+        "conditionId": "0xcondB3",
+        "slug": "epl-team-x-vs-team-y-draw",
+        "question": "Will it be a draw?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-13T15:00:00Z",
+        "clobTokenIds": "[\"tok-b3-yes\",\"tok-b3-no\"]"
+      }
+    ]
+  },
+  {
+    "id": "ev-300",
+    "slug": "csgo-team-r-vs-team-s-bo3",
+    "title": "CS:GO: Team R vs Team S (BO3)",
+    "markets": [
+      {
+        "conditionId": "0xcondC1",
+        "slug": "csgo-team-r-vs-team-s-bo3-r-win",
+        "question": "Will R win the series?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-14T18:00:00Z",
+        "clobTokenIds": "[\"tok-c1-yes\",\"tok-c1-no\"]"
+      },
+      {
+        "conditionId": "0xcondC2",
+        "slug": "csgo-team-r-vs-team-s-bo3-map1",
+        "question": "Will R win map 1?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-14T18:00:00Z",
+        "clobTokenIds": "[\"tok-c2-yes\",\"tok-c2-no\"]"
+      }
+    ]
+  },
+  {
+    "id": "ev-400",
+    "slug": "single-market-event-2026-05-15",
+    "title": "Some event with one market",
+    "markets": [
+      {
+        "conditionId": "0xcondD1",
+        "slug": "single-market-event-yes",
+        "question": "Yes or no?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-15T12:00:00Z",
+        "clobTokenIds": "[\"tok-d1-yes\",\"tok-d1-no\"]"
+      }
+    ]
+  },
+  {
+    "id": "ev-500",
+    "slug": "elections-2030-mayor",
+    "title": "Mayoral elections 2030",
+    "markets": [
+      {
+        "conditionId": "0xcondE1",
+        "slug": "elections-2030-mayor-candidate-1",
+        "question": "Will candidate 1 win?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-14T20:00:00Z",
+        "clobTokenIds": "[\"tok-e1-yes\",\"tok-e1-no\"]"
+      },
+      {
+        "conditionId": "0xcondE2",
+        "slug": "elections-2030-mayor-candidate-2",
+        "question": "Will candidate 2 win?",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-05-14T20:00:00Z",
+        "clobTokenIds": "[\"tok-e2-yes\",\"tok-e2-no\"]"
+      }
+    ]
+  }
+]

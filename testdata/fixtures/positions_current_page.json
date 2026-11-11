@@ -1,0 +1,29 @@
+[
+  {
+    "conditionId": "0xcond_spurs_twolves",
+    "slug": "spurs-vs-timberwolves",
+    "eventSlug": "spurs-vs-timberwolves-event",
+    "asset": "tok-spurs",
+    "outcome": "Spurs",
+    "size": 143311.2,
+    "avgPrice": 0.417,
+    "currentValue": 59760.77,
+    "cashPnl": 4500.10,
+    "realizedPnl": 0,
+    "redeemable": false,
+    "mergeable": false,
+    "negativeRisk": false
+  },
+  {
+    "conditionId": "0xcond_spurs_twolves",
+    "slug": "spurs-vs-timberwolves",
+    "eventSlug": "spurs-vs-timberwolves-event",
+    "asset": "tok-twolves",
+    "outcome": "Timberwolves",
+    "size": 86993.0,
+    "avgPrice": 0.510,
+    "currentValue": 44366.43,
+    "cashPnl": -200.0,
+    "realizedPnl": 0
+  }
+]

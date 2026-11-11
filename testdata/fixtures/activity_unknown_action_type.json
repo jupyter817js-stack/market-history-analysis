@@ -1,0 +1,12 @@
+[
+  {
+    "proxyWallet": "0xabc",
+    "timestamp": 1746489900,
+    "type": "FUTURE_FLAG_TYPE",
+    "asset": "a1",
+    "conditionId": "c1",
+    "slug": "m1",
+    "title": "Unknown action future-proof",
+    "transactionHash": "0xunknown"
+  }
+]

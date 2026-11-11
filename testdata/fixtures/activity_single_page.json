@@ -1,0 +1,36 @@
+[
+  {
+    "proxyWallet": "0xabc1234567890abcdef1234567890abcdef12345",
+    "timestamp": 1746489600,
+    "type": "TRADE",
+    "side": "BUY",
+    "price": 0.557,
+    "size": 25772.5,
+    "usdcSize": 14355.66,
+    "asset": "1234567890",
+    "outcome": "Heroic",
+    "outcomeIndex": 0,
+    "conditionId": "0xcond_heroic_series",
+    "slug": "counter-strike-aurora-vs-heroic-bo3",
+    "eventSlug": "counter-strike-aurora-vs-heroic",
+    "transactionHash": "0xtx1",
+    "title": "Counter-Strike: Aurora Gaming vs Heroic (BO3)"
+  },
+  {
+    "proxyWallet": "0xabc1234567890abcdef1234567890abcdef12345",
+    "timestamp": 1746489700,
+    "type": "TRADE",
+    "side": "BUY",
+    "price": 0.387,
+    "size": 21870.2,
+    "usdcSize": 8463.78,
+    "asset": "2345678901",
+    "outcome": "Heroic",
+    "outcomeIndex": 0,
+    "conditionId": "0xcond_heroic_map1",
+    "slug": "aurora-vs-heroic-map-1-winner",
+    "eventSlug": "counter-strike-aurora-vs-heroic",
+    "transactionHash": "0xtx2",
+    "title": "Aurora Gaming vs Heroic - Map 1 Winner"
+  }
+]

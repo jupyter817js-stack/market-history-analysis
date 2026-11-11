@@ -1,0 +1,10 @@
+{
+  "data": [
+    {
+      "id": "ev-2",
+      "slug": "orphan-event-slug",
+      "title": "Orphan event for fallback"
+    }
+  ],
+  "next_cursor": ""
+}

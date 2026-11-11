@@ -1,0 +1,27 @@
+[
+  {
+    "conditionId": "0xcond_old1",
+    "slug": "old-market-1",
+    "eventSlug": "old-event-1",
+    "asset": "tok-old1",
+    "outcome": "Yes",
+    "avgPrice": 0.42,
+    "totalBought": 100,
+    "realizedPnl": 12.5,
+    "curPrice": 1.0,
+    "timestamp": 1710000000,
+    "endDate": "2024-03-09T12:00:00Z"
+  },
+  {
+    "conditionId": "0xcond_old2",
+    "slug": "old-market-2",
+    "asset": "tok-old2",
+    "outcome": "No",
+    "avgPrice": 0.30,
+    "totalBought": 200,
+    "realizedPnl": -5.0,
+    "curPrice": 0.0,
+    "timestamp": 1715000000,
+    "endDate": "2024-05-06T12:00:00Z"
+  }
+]

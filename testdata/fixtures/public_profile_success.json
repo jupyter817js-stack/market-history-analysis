@@ -1,0 +1,12 @@
+{
+  "createdAt": "2024-12-01T05:31:56Z",
+  "proxyWallet": "0xabc1234567890abcdef1234567890abcdef12345",
+  "profileImage": "https://example.invalid/avatar.png",
+  "displayUsernamePublic": true,
+  "bio": "rn1 forensic test fixture",
+  "pseudonym": "RN1",
+  "name": "RN1",
+  "users": [{"id": "u-1", "creator": true, "mod": false}],
+  "xUsername": "rn1_x",
+  "verifiedBadge": true
+}

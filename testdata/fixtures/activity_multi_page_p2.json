@@ -1,0 +1,3 @@
+[
+  {"proxyWallet": "0xabc","timestamp": 1746489800,"type":"TRADE","side":"SELL","price":0.6,"size":50,"asset":"a1","conditionId":"c1","slug":"m1","title":"P2-1","transactionHash":"0x03"}
+]
